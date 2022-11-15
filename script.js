@@ -9,4 +9,10 @@ audio.addEventListener("pause", () => {
 
 //Reto 3
 
+const formulario = document.getElementById('contacte');
 
+formulario.addEventListener("submit", () => {
+
+    alert("Se ha enviado el formulario");
+
+});
