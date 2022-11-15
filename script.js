@@ -16,3 +16,25 @@ formulario.addEventListener("submit", () => {
     alert("Se ha enviado el formulario");
 
 });
+
+//Reto 2
+
+const cuadrado = document.getElementById('tests');
+
+cuadrado.addEventListener("keydown", (evento) => {
+
+    console.log(evento);
+
+    if (evento.key === "r") {
+        return cuadrado.className = "red";
+    }
+
+    if (evento.key === "y") {
+         return cuadrado.className = "yellow";
+    }
+
+    if (evento.key === "w") {
+         return cuadrado.className = "white";
+    }
+
+});
